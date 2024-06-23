@@ -39,19 +39,19 @@ a {
   
 }
 
-
 @media (max-width: 768px) {
-   .container {
+.container {
         display: flex;
-        flex-wrap: wrap; /* add this to wrap cards to the next line */
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
-   .card {
-        width: 100%; /* make cards full-width on mobile */
-        margin: 10px; /* adjust margin for mobile */
+.card {
+        width: 100%; 
+        margin: 10px; 
     }
 }
+
 @media(main-width: 768px) {
     .contener {
         width: 750px;
